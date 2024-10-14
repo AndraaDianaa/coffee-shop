@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <br>
+        <a href="index.html">Back to home</a>
+        <br>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Luni Coffee Shop 🌙</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="menu.html">Our Menu</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="/#program">Program</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <hr>
+    <main>
+    <article id="questionare">
+    <h2><span class="hire">We hire!</span></h2>
+    <p>Fill the questionare and let's talk!</p>
+    <form action=" https://httpbin.org/" method="get">
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName" placeholder="Joy" required>
+        <br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName" placeholder="Smith" required>
+        <br>
+        <label for="birthyear">Birth Year:</label> 
+        <input type="number" name="birthyear" id="birthyear" min="1940" max="2005" placeholder="2000" required>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Send us a message</legend>
+            <label for="message">Your message:</label>
+            <textarea name="message" id="message" col="30" row="10" placeholder="text your message here"></textarea>
+        </fieldset>
+        <button id="submit">Submit</button>
+        <button id="reset">Reset</button>
+    </form>
+    
+</article>
+<br>
+<hr>
+<article id="address">
+<address>
+   <cite> Central Park, New York<br>
+    Number 17<br>
+      <span class="corner">Corner with Main Street</span>
+</cite>
+<br>
+Phone: <a href="#">555-555-5555</a>
+<br>
+Email Address: <a href="#">Lunicoffeeshop@gmail.com</a>
+</address>
+</article>
+</main>    
+</body>
+<hr>
+<footer>
+    &COPY; Luni Coffee Shop 🌙
+</footer>
+</html>

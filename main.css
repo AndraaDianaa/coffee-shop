@@ -1,0 +1,39 @@
+html {
+    size: 22px;
+    background-color:beige;
+}
+h1, h2, h3 {
+    color:#333;
+
+}
+#independent {
+    font-family: monospace;
+}
+
+#birth {
+    font-family: monospace;
+}
+.highlight {
+    text-transform: lowercase;
+    background-color: gold;
+}
+.unique {
+    text-decoration:solid;
+    background-color: chartreuse;
+}
+#favourite {
+    font-family: monospace;
+}
+#pets {
+    font-family: monospace;
+}
+#food{
+    font-family: monospace;
+}
+.pick{
+    background-color: coral;
+}
+#program {
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(190, 24, 2);
+}

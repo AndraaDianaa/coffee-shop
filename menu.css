@@ -1,0 +1,31 @@
+html {
+    background-color:beige;
+    font-size: 22px;
+    font-family: monospace;
+    
+}
+
+h1 {
+    color:#333;
+}
+
+table, th, tr, td {
+    font-family: monospace;
+    color:#333;
+    border:2px solid #070606;
+
+    
+    font-size: 20px;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 0 0 2rem 2rem;
+}
+
+
+.free {
+    color:crimson; 
+    font-style: italic;
+}
+li:last-child a {
+    border-radius: 00 2rem 2rem;
+}
